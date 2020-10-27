@@ -1,0 +1,185 @@
+<!DOCTYPE html> 
+<html>
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.13.0/css/all.css"
+    integrity="sha384-Bfad6CLCknfcloXFOyFnlgtENryhrpZCe29RTifKEixXQZ38WheV+i/6YWSzkz3V" crossorigin="anonymous">
+    <title>Charlas Virtuales</title>
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Droid+Sans:400,700" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.8.1/baguetteBox.min.css">
+    
+
+    <link href="css/singlePageTemplate.css" rel="stylesheet" type="text/css">
+  </head>
+    <header> 
+      <section class="bar" id="bar">
+    
+    <ul>
+    <li><a href="index.html">Inicio</a></li>
+    
+    <li><a href="galeria.html">Galería</a></li>
+    <li><a href="contacto.html">Contacto</a></li>
+    <li><a href="charlas.html">Videos</a></li>
+    <li><a href="http://www.cpciba.org.ar">Información</a></li>
+  </ul>
+  
+  <img src="./images/fb-subheader-2.jpg" width="99.8%">
+  
+  </section>
+  
+  </header>
+      
+
+<body>
+ 
+  <div class="padlet-embed" style="border:1px solid rgba(0,0,0,0.1);border-radius:2px;box-sizing:border-box;overflow:hidden;position:relative;width:100%;background:#F4F4F4"><p style="padding:0;margin:0"><iframe src="https://padlet.com/embed/x09gsbzexnplruiv" frameborder="0" allow="camera;microphone;geolocation" style="width:100%;height:608px;display:block;padding:0;margin:0"></iframe></p><div style="padding:8px;text-align:right;margin:0;"><a href="https://padlet.com?ref=embed" style="padding:0;margin:0;border:none;display:block;line-height:1;height:16px" target="_blank"><img src="https://padlet.net/embeds/made_with_padlet.png" width="86" height="16" style="padding:0;margin:0;background:none;border:none;display:inline;box-shadow:none" alt="Hecho con Padlet"></a></div></div>
+    <h1 class="page-description text-center">Contactá con nosotros</h1>
+
+    <p class="page-description text-center">Envie su consulta por Email o WhatsApp</p>
+    
+    
+
+    <form action="mailto:info@tedigomás.com" method="post" enctype="text/plain">
+      <div>
+        <ul>
+         <li>
+           <label for="name">Nombre:</label>
+           <input type="text" id="name" name="user_name">
+         </li>
+         <li>
+           <label for="mail">Correo electrónico:</label>
+           <input type="email" id="mail" name="user_mail">
+         </li>
+         <li>
+           <label for="msg">Mensaje:</label>
+           <textarea id="msg" name="user_message"></textarea>
+         </li>
+        </ul>
+      
+       <li class="buttonn">
+        <button type="submit">Envíe su mensaje</button>
+      </li>
+      <br>
+      <p class="buttonn">
+        <button type="submit">
+          <img src="./images/whatsapp.png" width="20%" align="right" alt="whatsapp">
+          <a href="https://api.whatsapp.com/send?phone=+542257527942">Envíanos un mensaje de WhatsApp</a>
+    </button>
+    
+  </div>
+    </form>
+    
+      <style>
+form {
+  /* Centrar el formulario en la página */
+  margin: 0 auto;
+  width: 300px;
+  /* Esquema del formulario */
+  padding: 0.7em;
+  border: 10px solid rgb(2, 124, 158);
+  border-radius: 3em;
+}
+
+.div.ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+form li + li {
+  margin-top: 1em;
+}
+
+label {
+  /* Tamaño y alineación uniforme */
+  display: inline-block;
+  width: 70px;
+  text-align: center;
+}
+
+input, 
+textarea {
+  /* Para asegurarse de que todos los campos de texto tienen la misma configuración de letra
+     Por defecto, las áreas de texto tienen un tipo de letra monoespaciada */
+  font: 1.2em sans-serif;
+
+  /* Tamaño uniforme del campo de texto */
+  width: 220px;
+  box-sizing: border-box;
+
+  /* Hacer coincidir los bordes del campo del formulario */
+  border: 1px solid  rgb(2, 124, 158);
+}
+
+input:focus, 
+textarea:focus {
+  /* Destacado adicional para elementos que tienen el cursor */
+  border-color: #000;
+}
+
+textarea {
+  /* Alinear los campos de texto multilínea con sus etiquetas */
+  vertical-align: top;
+
+  /* Proporcionar espacio para escribir texto */
+  height: 12em;
+}
+
+.buttonn {
+  /* Alinear los botones con los campos de texto */
+  padding-left: 90px; /* mismo tamaño que los elementos de la etiqueta */
+}
+
+buttonn {
+  /* Este margen adicional representa aproximadamente el mismo espacio que el espacio
+     entre las etiquetas y sus campos de texto */
+  margin-left: .5em;
+}
+@media(max-width: 360px) {
+    body {
+        padding: 0;
+    }
+
+    .container.gallery-container {
+        border-radius: 0;
+    }
+}
+    </style>
+
+      
+    </div>
+
+ 
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.8.1/baguetteBox.min.js"></script>
+<script>
+    baguetteBox.run('.tz-gallery');
+</script>
+</body>
+<br><br>
+
+<section class="footer_banner" id="contact">
+  
+ 
+  
+  <ul class="social">
+          <li><a href="https://github.com/BBrian11" aria-label="Visit my GitHub"><i class="fab fa-github"></i></a></li>
+          <li><a href="https://www.linkedin.com/in/bolesi-brian/" aria-label="Connect with me on LinkedIn"><i class="fab fa-linkedin"></i></a></li>
+          <li><a href="https://twitter.com/BBrian11" aria-label="Find me on Twitter"><i class="fab fa-twitter"></i></a></li>
+          <li><a href="https://www.instagram.com/brian_nicolas_b11/" aria-label="Check out my Instagram"><i class="fab fa-instagram"></i></a></li>
+  
+        </ul>
+        <p class="social" align="center" ><strong> &copy;2020 -Brian Bolesi</strong></div></h1>
+</tomar></h4></h4></h4> </div>
+
+
+</section>
+</footer>
+</div>
+
+</html>
